@@ -11,9 +11,9 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 5. [Compiled_Version] <https://github.com/JasmineTye/food-delivery-analysis/blob/main/5.%20Compiled%20Version.ipynb>
    
 ## Contributors
-Keng Jia Chi (@JiachiK)
-Jasmine Tye (@JasmineTye)
-Lee Qi Yuan (@zikchg)
+Keng Jia Chi (@JiachiK) - Data Extraction, Data Visualization, Machine Learning, Conclusion_Product
+Jasmine Tye (@JasmineTye) - Data Extraction, Data Visualization, Machine Learning, Conclusion_Product
+Lee Qi Yuan (@zikchg) - Data Extraction, Data Visualization, Conclusion_Product
 
 ## Problem Definition
 - How can we predict time taken for delivery accurately and precisely?
