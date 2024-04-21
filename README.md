@@ -4,14 +4,16 @@
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on a food delivery dataset from [Kaggle](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset/data). For detailed walkthrough, please view the source code in order from:
 
-1. [Data Extraction]
-2. [Explanatory Data Analysis]
-3. [Model Training]
-  
+1. [Data Extraction] <https://github.com/JasmineTye/food-delivery-analysis/blob/main/1.%20Data%20Extraction.ipynb>
+2. [Data_Visualization] <https://github.com/JasmineTye/food-delivery-analysis/blob/main/2.%20Data_Visualization.ipynb>
+3. [Machine_Learning] <https://github.com/JasmineTye/food-delivery-analysis/blob/main/3.%20Machine_Learning.ipynb>
+4. [Conclusion_Product] <https://github.com/JasmineTye/food-delivery-analysis/blob/main/4.%20Conclusion_Product.ipynb>
+5. [Compiled_Version] <https://github.com/JasmineTye/food-delivery-analysis/blob/main/5.%20Compiled%20Version.ipynb>
+   
 ## Contributors
-Keng Jia Chi ()
-Jasmine Tye Jia Wen (jtye002@e.ntu.edu.sg)
-Lee Qi Yuan ()
+Keng Jia Chi (@JiachiK)
+Jasmine Tye (@JasmineTye)
+Lee Qi Yuan (@zikchg)
 
 ## Problem Definition
 - How can we predict time taken for delivery accurately and precisely?
@@ -23,6 +25,7 @@ Lee Qi Yuan ()
 2. XGBoost Regressor
 3. LightGBM Regressor
 4. Support Vector Regression
+5. Ensemble-Model (Combination of above 4 models)
 
 ## Conclusion/ Recommendations
 - Identified the top 3 numerical and categorical factors that significantly impact the food delivery time 
