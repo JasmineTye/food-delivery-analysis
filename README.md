@@ -11,9 +11,9 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 5. [Compiled_Version] <https://github.com/JasmineTye/food-delivery-analysis/blob/main/5.%20Compiled%20Version.ipynb>
    
 ## Contributors
-- Keng Jia Chi (@JiachiK) - Data Extraction, Data Visualization, Machine Learning, Conclusion_Product
-- Jasmine Tye (@JasmineTye) - Data Extraction, Data Visualization, Machine Learning, Conclusion_Product
-- Lee Qi Yuan (@zikchg) - Data Extraction, Data Visualization, Conclusion_Product
+- Keng Jia Chi (@JiachiK) - Data Extraction, Data Visualization, Machine Learning, Conclusion_Product, Slides, Video Presentation
+- Jasmine Tye (@JasmineTye) - Data Extraction, Data Visualization, Machine Learning, Conclusion_Product, Slides, Video Presentation
+- Lee Qi Yuan (@zikchg) - Data Extraction, Data Visualization, Conclusion_Product, Slides, Video Presentation
 
 ## Problem Definition
 - How can we predict time taken for delivery accurately and precisely?
@@ -38,7 +38,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - Additional models such as Random Forest Regressor, LightGBM, XGBoost, and Support Vector Regression
 - Optuna model to bettwe visualise and tune machine learning models
 - Handling large data sets (~45k rows of data)
-- 
+- One-hot encoding's necessity for categorical data and its methods of implementation
 
 ## References
 - <https://optuna.org/#code_examples>
