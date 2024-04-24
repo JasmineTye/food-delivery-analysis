@@ -20,12 +20,26 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - Which model would be the best to predict it?
 
 ## Models Used
-
 1. Random Forest Regressor
 2. XGBoost Regressor
 3. LightGBM Regressor
 4. Support Vector Regression
 5. Ensemble-Model (Combination of above 4 models)
+
+## Data Extraction
+- Import data from foodDeliveryData.csv file obtained from Kaggle
+- 20 columns of numerical and categorical data such as Weatherconditions, Vehicle_condition, Delivery_Person_Age, Delivery_Person_Rating 
+- Number of rows before cleaning: 45593
+- Data cleaning by removing rows with NaN values in any of the columns.
+- Number of rows after cleaning: 41368
+- Data preparation process:
+  a) removing redundant data such as ID
+  b) reclassifying some rows in dataset:
+   - removing (min) from `Time_taken(min)`
+   - removing (conditions) from `Weatherconditions`
+   - changing value 'jam' to 'very high' in `road_traffic_density`
+   - calculating distance of restaurant and delivery location and storing in `Distance_between_restaurant_and_delivery_place(KM)`
+  c) ensuring all columns have the correct data type such as integer or float, instead of representing it as a string
 
 ## Conclusion/ Recommendations
 - Identified the top 3 numerical and categorical factors that significantly impact the food delivery time 
@@ -46,3 +60,4 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - <https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMRegressor.html>
 - <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html>
 - <https://xgboost.readthedocs.io/en/stable/get_started.html>
+- <https://www.statology.org/interpret-cramers-v/>
