@@ -41,12 +41,32 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
    - calculating distance of restaurant and delivery location and storing in `Distance_between_restaurant_and_delivery_place(KM)`
   c) ensuring all columns have the correct data type such as integer or float, instead of representing it as a string
 
+## Data Visualisation
+- In this section, we explore food delivery dataset through various visualisations to gain insights and understand the relationships between different variables.
+- Libraries such as matplotlib and seaborn was used.
+- Count plots revealed insightful data such as the most and least common categories for each variable.
+- Box plots were plot for each variable against time taken to help detect outliers and identify relationships. Thus, helping to detect patterns and trends.
+- Use Heatmap Association, Random Forest Regressor and Cramer's V to detect the top 3 categorical and numerical factors to aid in model training.
+
+## Machine Learning
+- Train the 5 models to accurately predict `Time_taken (min)`
+- Models are analysed using R-squared value and Mean-squared error (MSE)
+- From R-squared value and MSE, LightGBM model has the highest R-squared and lowest MSE
+- Attempting to improve accuracy of LightGBM model, Optuna library was used for hyperparameter tuning for LightGBM model. However, it is noted that the untuned LightGBM was overall more accurate than the tuned model.
+- K-fold cross validation was carried out to further evaluate the accuracies of each model
+- Lastly, feature importance graph was plotted for each variable in LightGBM model and it was found that `Deliver_person_Age` was the top factor contributing to `Time_taken (min)` 
+
 ## Conclusion/ Recommendations
 - Identified the top 3 numerical and categorical factors that significantly impact the food delivery time 
 - LightGBM model is the most optimal and can be used to predict the time taken for delivery
 - Recommendation: Swift Deliver application utilizes user-inputted values for top categorical and numerical factors to predict delivery time accurately using a LightGBM model trained on historical data, enhancing delivery process efficiency and customer satisfaction.
 <img width="343" alt="image" src="https://github.com/JasmineTye/food-delivery-analysis/assets/82916679/6d1683d4-52ee-438c-ab97-940d38825fca">
- 
+
+ ## Future Improvement
+- Incorporate deep neural networks machine learning techniques.
+- Ensure that the model is robust and scalable to handle large volumes of data and real-time prediction requests, especially if it's deployed in a production environment.
+- Integrate additionals features that could potentially impact delivery time to allow better prediction of time taken(more accurate).
+- Incorporate a feedback mechanism where the actual delivery times are collected and used to update the model periodically, ensuring it remains accurate and reflective of real-world conditions.
 
 ## What did we learn from this project?
 - Additional models such as Random Forest Regressor, LightGBM, XGBoost, and Support Vector Regression
