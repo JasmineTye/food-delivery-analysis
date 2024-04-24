@@ -70,7 +70,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 ## What did we learn from this project?
 - Additional models such as Random Forest Regressor, LightGBM, XGBoost, and Support Vector Regression
-- Optuna model to bettwe visualise and tune machine learning models
+- Optuna model to better visualise and tune machine learning models
 - Handling large data sets (~45k rows of data)
 - One-hot encoding's necessity for categorical data and its methods of implementation
 
